@@ -28,6 +28,7 @@ class MDP(object):
         # you don't have to put in all params
         pass
 
+    @property
     def states(self):
         # returns an iterable of all possible states 
         pass

@@ -23,8 +23,6 @@ def ValueIteration(mdp):
         # update values
         newV = defaultdict(int)
         for state in mdp.states:
-            if state == 0: 
-                print("wtf")
             if mdp.is_terminal(state):
                 newV[state] = 0.
             else:
