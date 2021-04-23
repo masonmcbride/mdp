@@ -6,7 +6,7 @@
 class MDP(object):
 
     def __init__(self, discount=1.0):
-        this.discount = discount
+        self.discount = discount
 
     def is_terminal(self, state):
         pass
